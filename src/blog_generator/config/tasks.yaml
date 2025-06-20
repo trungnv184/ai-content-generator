@@ -1,371 +1,489 @@
 research_task:
   agent: researcher
   description: |
-    Conduct comprehensive, in-depth research on {topic} following this systematic approach:
+    Conduct comprehensive research on {topic} following this systematic approach:
 
-    1. **Current State Analysis**:
-       - What is {topic} and how is it currently defined?
-       - What are the core concepts, principles, and technologies involved?
-       - What are the current implementations and use cases?
-       - What are the major players, companies, and organizations in this space?
+    1. **Fundamental Concepts (Beginner Level)**:
+       - What is {topic} and its core principles?
+       - What problems does {topic} solve?
+       - What are the basic components and terminology?
+       - What are the fundamental use cases?
+       - What are the prerequisites and basic requirements?
 
-    2. **Technical Deep Dive**:
-       - What are the underlying technologies and architectures?
-       - What are the key algorithms, frameworks, or methodologies?
-       - What are the technical challenges and limitations?
-       - What are the performance characteristics and benchmarks?
+    2. **Technical Architecture (Intermediate Level)**:
+       - What is the system architecture of {topic}?
+       - What are the core components and their roles?
+       - How do components interact with each other?
+       - What are the data flows and processing patterns?
+       - What are the integration points and APIs?
 
-    3. **Market and Industry Analysis**:
-       - What is the current market size and growth trajectory?
-       - What are the adoption rates and trends?
-       - What are the key drivers and barriers to adoption?
-       - What are the competitive landscape and positioning?
+    3. **Implementation Details (Intermediate-Advanced)**:
+       - How is {topic} implemented in practice?
+       - What are the setup and configuration requirements?
+       - What are the different implementation patterns?
+       - What are the API specifications and protocols?
+       - What are the common integration scenarios?
 
-    4. **Recent Developments and Trends**:
-       - What are the latest innovations and breakthroughs (last 12 months)?
-       - What are the emerging trends and future directions?
-       - What are the upcoming technologies or methodologies?
-       - What are the predictions and forecasts from industry experts?
+    4. **Advanced Features and Patterns (Advanced Level)**:
+       - What are the advanced features and capabilities?
+       - What are the performance optimization techniques?
+       - What are the scaling and high-availability patterns?
+       - What are the security considerations and best practices?
+       - What are the monitoring and observability patterns?
 
-    5. **Real-world Applications**:
-       - What are the most successful implementations and case studies?
-       - What are the practical applications across different industries?
-       - What are the ROI and business impact examples?
-       - What are the lessons learned from real-world deployments?
+    5. **Real-World Applications**:
+       - What are the primary use cases and applications?
+       - What industries are adopting {topic}?
+       - What are the success stories and case studies?
+       - What are the performance benchmarks and metrics?
+       - What are the limitations and trade-offs?
 
-    6. **Challenges and Considerations**:
-       - What are the technical challenges and limitations?
-       - What are the ethical, legal, or regulatory considerations?
-       - What are the security and privacy concerns?
-       - What are the scalability and maintenance challenges?
+    6. **Best Practices and Guidelines**:
+       - What are the recommended implementation patterns?
+       - What are the common pitfalls and anti-patterns?
+       - What are the security guidelines and considerations?
+       - What are the monitoring and maintenance strategies?
+       - What are the troubleshooting and debugging approaches?
 
-    7. **Future Outlook**:
-       - What are the predicted developments in the next 1-3 years?
-       - What are the potential disruptive impacts?
-       - What are the opportunities and threats?
-       - What are the recommendations for organizations and individuals?
+    7. **Integration and Deployment**:
+       - How does {topic} integrate with other systems?
+       - What are the deployment options and strategies?
+       - What are the containerization and orchestration patterns?
+       - What are the CI/CD integration patterns?
+       - What are the production deployment considerations?
 
-    8. **Expert Opinions and Sources**:
-       - What do industry experts and thought leaders say about {topic}?
-       - What are the most authoritative sources and references?
-       - What are the academic research and publications?
-       - What are the industry reports and whitepapers?
+    8. **Future Trends and Considerations**:
+       - What are the emerging trends and developments?
+       - What are the potential challenges and solutions?
+       - What are the upgrade and migration strategies?
+       - What are the long-term maintenance considerations?
+       - What are the community and ecosystem developments?
 
     **Research Requirements**:
-    - Use multiple credible sources (academic papers, industry reports, expert blogs, official documentation)
-    - Include specific data points, statistics, and quantitative information
-    - Provide direct quotes from experts when relevant
-    - Include links to source materials and references
-    - Focus on the most recent and relevant information (prioritize last 6 months)
-    - Ensure accuracy and verify information from multiple sources
-    - Be comprehensive but also highlight the most important and impactful findings
+    - Cover content from basic concepts to advanced implementation
+    - Find practical code examples and configurations
+    - Identify architectural patterns and system designs
+    - Locate performance benchmarks and optimization techniques
+    - Discover real-world case studies and success stories
+    - Find integration examples and deployment patterns
+    - Include security considerations and best practices
+    - Look for monitoring, troubleshooting, and maintenance guidance
+    - Ensure content is suitable for both beginners and advanced practitioners
 
   expected_output: |
     A comprehensive research report on {topic} structured as follows:
 
     ## Executive Summary
-    Brief overview of key findings and insights (2-3 paragraphs)
+    Brief overview of {topic} and its significance in the industry
 
-    ## Current State and Definition
-    - Clear definition and scope of {topic}
-    - Core concepts and principles
-    - Current implementations and use cases
-    - Key players and organizations
+    ## Fundamental Concepts
+    - Core principles and basic terminology
+    - Problem domain and use cases
+    - Basic components and architecture
+    - Prerequisites and requirements
 
-    ## Technical Analysis
-    - Underlying technologies and architectures
-    - Key algorithms, frameworks, or methodologies
-    - Technical specifications and requirements
-    - Performance characteristics and benchmarks
+    ## Technical Architecture
+    - System components and their roles
+    - Component interactions and data flows
+    - Integration points and APIs
+    - Deployment models and patterns
 
-    ## Market and Industry Landscape
-    - Market size, growth, and adoption trends
-    - Industry drivers and barriers
-    - Competitive landscape analysis
-    - Regional and sector-specific insights
+    ## Implementation Guide
+    - Setup and configuration requirements
+    - API specifications and protocols
+    - Common implementation patterns
+    - Code examples and configurations
 
-    ## Recent Developments and Innovations
-    - Latest breakthroughs and innovations (last 12 months)
-    - Emerging trends and technologies
-    - Notable announcements and releases
-    - Expert predictions and forecasts
+    ## Advanced Features
+    - Advanced capabilities and features
+    - Performance optimization techniques
+    - Scaling and high-availability patterns
+    - Security considerations and best practices
 
-    ## Real-world Applications and Case Studies
-    - Successful implementation examples
-    - Industry-specific applications
-    - ROI and business impact data
-    - Lessons learned and best practices
+    ## Integration Patterns
+    - Integration scenarios and use cases
+    - API endpoints and protocols
+    - Data formats and schemas
+    - Deployment and orchestration patterns
 
-    ## Challenges and Considerations
-    - Technical challenges and limitations
-    - Ethical, legal, and regulatory issues
-    - Security and privacy concerns
-    - Scalability and maintenance considerations
+    ## Real-World Applications
+    - Industry applications and case studies
+    - Success stories and performance metrics
+    - Implementation examples and results
+    - Limitations and trade-offs
 
-    ## Future Outlook and Predictions
-    - Short-term developments (1-2 years)
-    - Long-term trends and predictions
-    - Potential disruptive impacts
-    - Strategic recommendations
+    ## Best Practices
+    - Implementation patterns and guidelines
+    - Security considerations and practices
+    - Monitoring and observability strategies
+    - Troubleshooting and maintenance procedures
 
-    ## Expert Insights and Sources
-    - Key expert opinions and quotes
-    - Authoritative sources and references
-    - Academic research highlights
-    - Industry report summaries
+    ## Future Considerations
+    - Emerging trends and developments
+    - Potential challenges and solutions
+    - Upgrade and migration strategies
+    - Long-term maintenance considerations
 
     **Format Requirements**:
-    - Use proper markdown formatting with headers, lists, and emphasis
-    - Include specific data points and statistics
-    - Provide source links and references
-    - Ensure comprehensive coverage of all research areas
-    - Target length: 2000-4000 words of detailed, well-structured content
-    - Focus on actionable insights and practical information
+    - Include code examples from basic to advanced
+    - Provide architectural diagrams and patterns
+    - Include performance metrics and benchmarks
+    - Add integration patterns and examples
+    - Show real-world implementations
+    - Cover security and best practices
+    - Target length: 4000-6000 words
+    - Ensure content progression from basic to advanced
 
   metadata:
     type: research
     format: markdown
-    min_length: 2000
-    max_length: 4000
+    min_length: 4000
+    max_length: 6000
     research_depth: comprehensive
-    source_requirements: multiple_credible_sources
+    content_levels: [beginner, intermediate, advanced]
+    source_requirements: practical_examples_and_code
 
 technical_writer_task:
   agent: technical_writer
   description: |
-    Using the comprehensive research provided, create a detailed, engaging technical blog post about {topic} that follows these guidelines:
+    Using the comprehensive research provided, create a detailed technical article about {topic} that follows these guidelines:
 
-    1. **Content Structure and Flow**:
-       - Start with a compelling introduction that hooks the reader
-       - Use the research data to create a logical, well-structured narrative
-       - Include clear section headers and subheaders for easy navigation
-       - End with a strong conclusion that summarizes key takeaways
+    1. **Article Structure and Flow**:
+       - Start with a clear problem statement and solution overview
+       - Follow a logical progression from concepts to implementation
+       - Include clear technical diagrams and visualizations
+       - Provide practical code examples and patterns
+       - End with actionable insights and next steps
 
-    2. **Technical Depth and Clarity**:
-       - Explain complex concepts in simple, accessible language
-       - Use analogies and real-world examples to illustrate technical points
-       - Include relevant code snippets, diagrams, or technical specifications
-       - Break down complex processes into step-by-step explanations
+    2. **Technical Visualization**:
+       - Create system architecture diagrams
+       - Include component interaction diagrams
+       - Add data flow visualizations
+       - Show integration patterns
+       - Illustrate deployment scenarios
+       - Visualize performance metrics
 
-    3. **Data-Driven Content**:
-       - Incorporate specific statistics, metrics, and data points from the research
-       - Use charts, graphs, or visual representations where appropriate
-       - Include case studies and real-world examples
-       - Provide concrete evidence to support claims and recommendations
+    3. **Implementation Details**:
+       - Provide detailed technical specifications
+       - Include code examples with explanations
+       - Show configuration patterns
+       - Demonstrate API usage
+       - Explain integration approaches
+       - Cover error handling
 
-    4. **SEO and Readability Optimization**:
-       - Use relevant keywords naturally throughout the content
-       - Include meta descriptions and proper heading hierarchy
-       - Optimize for featured snippets and search visibility
-       - Ensure content is scannable with bullet points and numbered lists
+    4. **Use Cases and Examples**:
+       - Present real-world applications
+       - Show industry-specific implementations
+       - Include success stories and metrics
+       - Demonstrate practical solutions
+       - Provide benchmark results
 
-    5. **Engagement and Value**:
-       - Address common questions and pain points related to {topic}
-       - Provide actionable insights and practical recommendations
-       - Include expert quotes and industry insights
-       - Add internal and external links for further reading
+    5. **Best Practices and Guidelines**:
+       - Document implementation patterns
+       - Explain security considerations
+       - Cover performance optimization
+       - Include monitoring strategies
+       - Provide maintenance guidance
 
-    6. **Technical Accuracy**:
-       - Ensure all technical information is accurate and up-to-date
-       - Verify code snippets and technical specifications
-       - Cross-reference information with authoritative sources
-       - Include disclaimers where appropriate
+    6. **Integration and Deployment**:
+       - Show integration patterns
+       - Explain deployment options
+       - Cover scaling strategies
+       - Include security measures
+       - Discuss monitoring approaches
 
-    7. **Visual and Interactive Elements**:
-       - Suggest relevant images, diagrams, or infographics
-       - Include code examples with proper syntax highlighting
-       - Add callout boxes for important tips or warnings
-       - Use tables to organize complex information
+    7. **Troubleshooting and Support**:
+       - Address common challenges
+       - Provide solution patterns
+       - Include debugging strategies
+       - Cover maintenance aspects
+       - List support resources
 
-    8. **Audience Consideration**:
-       - Write for both technical and non-technical audiences
-       - Provide context and background information where needed
-       - Use progressive disclosure for complex topics
-       - Include a glossary of technical terms if necessary
+    8. **Future Considerations**:
+       - Discuss scalability aspects
+       - Cover potential challenges
+       - Include upgrade strategies
+       - Address future needs
+       - Suggest improvement paths
 
   expected_output: |
-    A comprehensive, well-structured technical blog post about {topic} that includes:
+    A comprehensive technical article about {topic} that includes:
 
     ## Introduction
-    - Engaging hook and problem statement
-    - Brief overview of what the article will cover
-    - Target audience and value proposition
+    - Problem statement and context
+    - Solution overview
+    - Technical benefits
+    - Implementation considerations
 
-    ## Main Content Sections
-    - Detailed explanations of key concepts
-    - Technical specifications and implementations
-    - Real-world examples and case studies
-    - Data-driven insights and statistics
-    - Expert opinions and industry trends
+    ## Technical Overview
+    - Core concepts and architecture
+    - System components
+    - Technical requirements
+    - Integration points
+    - Architecture diagram
 
-    ## Technical Implementation
-    - Code examples and snippets
-    - Step-by-step guides or tutorials
-    - Best practices and recommendations
-    - Common pitfalls and solutions
+    ## Implementation Guide
+    - Setup and configuration
+    - Code examples
+    - API usage
+    - Integration patterns
+    - Error handling
+    - Performance considerations
 
-    ## Analysis and Insights
-    - Market analysis and trends
-    - Performance comparisons and benchmarks
-    - ROI and business impact analysis
-    - Future predictions and recommendations
+    ## Use Cases
+    - Industry applications
+    - Implementation examples
+    - Success stories
+    - Performance metrics
+    - Cost-benefit analysis
 
-    ## Conclusion
-    - Summary of key takeaways
-    - Actionable next steps
-    - Call-to-action for readers
+    ## Best Practices
+    - Implementation patterns
+    - Security guidelines
+    - Performance optimization
+    - Monitoring strategies
+    - Maintenance procedures
+
+    ## Integration and Deployment
+    - Integration patterns
+    - Deployment options
+    - Scaling strategies
+    - Security measures
+    - Monitoring setup
+
+    ## Troubleshooting Guide
+    - Common challenges
+    - Solution patterns
+    - Debugging strategies
+    - Performance tuning
+    - Support resources
+
+    ## Future Considerations
+    - Scalability planning
+    - Upgrade strategies
+    - Future challenges
+    - Improvement paths
+    - Long-term maintenance
 
     **Content Requirements**:
-    - Minimum 2500 words of high-quality, detailed content
-    - Proper markdown formatting with headers, lists, and emphasis
-    - Include relevant links and references
-    - Use data and statistics from the research
-    - Ensure technical accuracy and clarity
-    - Optimize for both human readers and search engines
+    - Professional technical writing
+    - Clear explanations
+    - Practical code examples
+    - System diagrams
+    - Performance metrics
+    - Integration patterns
+    - Security guidelines
+    - Target length: 4000-6000 words
 
   metadata:
     type: content
     format: markdown
-    min_length: 2500
-    max_length: 5000
+    min_length: 4000
+    max_length: 6000
     seo_optimized: true
     technical_depth: comprehensive
-    audience: mixed_technical
+    audience: technical_professionals
 
 technical_reviewer_task:
   agent: technical_reviewer
   description: |
-    Conduct a comprehensive review of the technical blog post about {topic} following these evaluation criteria:
+    Conduct a comprehensive review of the Medium-style technical article about "{topic}" following these evaluation criteria:
 
-    1. **Content Quality and Depth**:
-       - Is the content comprehensive and detailed enough?
-       - Does it cover all important aspects of {topic}?
-       - Is the technical information accurate and up-to-date?
-       - Are there any gaps in the content that need to be addressed?
+    1. **Article Structure and Storytelling**:
+       - Does the article have a compelling hook?
+       - Is the "What, Why, When, How" structure clear?
+       - Does the storytelling maintain engagement?
+       - Are transitions smooth and logical?
+       - Is the content flow professional and polished?
 
-    2. **Technical Accuracy and Completeness**:
-       - Verify all technical claims, specifications, and data points
-       - Check for any inaccuracies or outdated information
-       - Ensure code examples are correct and functional
-       - Validate all links, references, and sources
+    2. **Visual Content and Diagrams**:
+       - Are the diagrams clear and professional?
+       - Do visuals effectively explain complex concepts?
+       - Are code blocks properly formatted and highlighted?
+       - Are comparisons visually presented?
+       - Are there enough visual aids?
 
-    3. **Readability and Clarity**:
-       - Is the content accessible to the target audience?
-       - Are complex concepts explained clearly?
-       - Is the language appropriate for both technical and non-technical readers?
-       - Are there any confusing or ambiguous sections?
+    3. **Technical Accuracy and Depth**:
+       - Is the technical information accurate?
+       - Are concepts explained at the right depth?
+       - Are comparisons fair and well-researched?
+       - Are pros and cons properly analyzed?
+       - Are performance claims substantiated?
 
-    4. **Structure and Organization**:
-       - Is the content well-organized with logical flow?
-       - Are headings and subheadings used effectively?
-       - Is the information presented in a logical sequence?
-       - Are there clear transitions between sections?
+    4. **Practical Value**:
+       - Are the examples realistic and useful?
+       - Are implementation details complete?
+       - Are best practices well-explained?
+       - Are common challenges addressed?
+       - Is troubleshooting guidance practical?
 
-    5. **SEO and Technical Optimization**:
-       - Are relevant keywords used naturally throughout the content?
-       - Is the heading hierarchy optimized for search engines?
-       - Are meta descriptions and titles appropriate?
-       - Is the content optimized for featured snippets?
+    5. **Use Cases and Examples**:
+       - Are case studies detailed and realistic?
+       - Do examples cover different scenarios?
+       - Are metrics and results included?
+       - Are lessons learned valuable?
+       - Are success stories credible?
 
-    6. **Engagement and Value**:
-       - Does the content provide real value to readers?
-       - Are there actionable insights and recommendations?
-       - Is the content engaging and interesting to read?
-       - Are there appropriate calls-to-action?
+    6. **Professional Writing Quality**:
+       - Is the writing style professional?
+       - Is technical jargon appropriately used?
+       - Is the tone consistent and engaging?
+       - Are explanations clear and concise?
+       - Is the article well-edited?
 
-    7. **Data and Evidence**:
-       - Are claims supported by credible sources and data?
-       - Are statistics and metrics properly cited?
-       - Are expert quotes and insights relevant and accurate?
-       - Is there sufficient evidence to support recommendations?
+    7. **Visual Appeal and Formatting**:
+       - Is the layout professional?
+       - Are sections well-organized?
+       - Are headings and subheadings effective?
+       - Is the content scannable?
+       - Are emphasis and formatting consistent?
 
-    8. **Visual and Interactive Elements**:
-       - Are code examples properly formatted and highlighted?
-       - Are tables and lists used effectively?
-       - Are there suggestions for relevant images or diagrams?
-       - Is the content visually appealing and scannable?
+    8. **Actionable Insights**:
+       - Are takeaways clear and actionable?
+       - Are next steps well-defined?
+       - Is further reading suggested?
+       - Are resources properly linked?
+       - Is the conclusion impactful?
 
   expected_output: |
-    A comprehensive review report with the following sections:
+    A comprehensive review report for the Medium-style technical article about "{topic}" with the following sections:
 
     ## Executive Summary
-    Overall assessment of the blog post quality and readiness for publication
+    Overall assessment of article quality and readiness for publication on Medium
 
-    ## Content Quality Assessment
-    - **Strengths**: What aspects of the content are particularly strong
-    - **Areas for Improvement**: Specific suggestions for enhancing the content
-    - **Missing Elements**: Any important topics or information that should be added
-    - **Technical Accuracy**: Verification of all technical claims and data
+    ## Storytelling and Structure
+    - **Hook and Introduction**: Effectiveness of the opening
+    - **Content Flow**: Logical progression and transitions
+    - **Engagement**: How well the article maintains reader interest
+    - **Conclusion**: Impact and call-to-action effectiveness
 
-    ## Readability and Structure Analysis
-    - **Clarity**: Assessment of how well complex concepts are explained
-    - **Organization**: Evaluation of content structure and flow
-    - **Audience Appropriateness**: How well the content serves the target audience
-    - **Navigation**: Effectiveness of headings and content organization
+    ## Visual Content Assessment
+    - **Diagrams**: Quality and clarity of technical diagrams
+    - **Code Blocks**: Formatting and presentation
+    - **Visual Aids**: Effectiveness of supporting visuals
+    - **Layout**: Overall visual appeal and professionalism
 
-    ## SEO and Technical Optimization Review
-    - **Keyword Usage**: Assessment of keyword integration and optimization
-    - **Technical SEO**: Evaluation of heading hierarchy, meta information, etc.
-    - **Content Optimization**: Suggestions for improving search visibility
-    - **Link Strategy**: Review of internal and external links
+    ## Technical Content Review
+    - **Accuracy**: Technical correctness and currency
+    - **Depth**: Appropriate level of technical detail
+    - **Examples**: Quality of code and implementation examples
+    - **Comparisons**: Fairness and completeness of analysis
+
+    ## Practical Value Assessment
+    - **Use Cases**: Relevance and completeness
+    - **Implementation**: Clarity of guidance
+    - **Best Practices**: Comprehensiveness and accuracy
+    - **Problem Solving**: Effectiveness of solutions
+
+    ## Writing Quality Analysis
+    - **Style**: Professional writing quality
+    - **Clarity**: Clear explanations of complex concepts
+    - **Tone**: Consistency and appropriateness
+    - **Editing**: Grammar, spelling, and formatting
 
     ## Specific Recommendations
-    - **Content Additions**: Specific content that should be added or expanded
-    - **Content Revisions**: Specific sections that need rewriting or clarification
-    - **Technical Improvements**: Code examples, diagrams, or technical details to add
-    - **Formatting Suggestions**: Improvements to structure, formatting, or presentation
+    - **Content Improvements**: Areas needing enhancement
+    - **Visual Enhancements**: Suggested diagram or visual additions
+    - **Structure Adjustments**: Organization improvements
+    - **Technical Clarifications**: Points needing elaboration
 
-    ## Quality Score and Readiness Assessment
-    - **Overall Quality Score**: 1-10 rating with justification
-    - **Publication Readiness**: Whether the content is ready for publication
-    - **Priority Fixes**: Critical issues that must be addressed before publication
-    - **Optional Enhancements**: Improvements that could be made for better quality
+    ## Publication Readiness
+    - **Overall Score**: 1-10 rating with justification
+    - **Critical Issues**: Must-fix items before publication
+    - **Enhancement Suggestions**: Nice-to-have improvements
+    - **SEO Recommendations**: Title, tags, and keywords
 
     **Review Requirements**:
-    - Be thorough and constructive in feedback
-    - Provide specific, actionable recommendations
-    - Focus on both technical accuracy and user experience
-    - Consider SEO and content marketing best practices
-    - Ensure feedback is clear and implementable
+    - Focus on professional, Medium-style quality
+    - Ensure technical accuracy and depth
+    - Verify visual content effectiveness
+    - Check storytelling and engagement
+    - Validate practical value
+    - Assess writing quality and polish
 
   metadata:
     type: review
     format: markdown
     review_depth: comprehensive
     focus_areas:
-      [content_quality, technical_accuracy, readability, seo, engagement]
+      [
+        storytelling,
+        visual_content,
+        technical_accuracy,
+        practical_value,
+        professional_quality,
+      ]
 
 technical_publisher_task:
   agent: technical_publisher
   description: |
-    1. After getting feedback from the technical reviewer, update the technical blog post and make it more popular based on the feedback
-    2. Add metadata for blog scheduling:
-       - Title
-       - Author
-       - Publication date
-       - Tags
-       - Categories
-       - Reading time estimate
-    3. Format the content for blog platform compatibility
-    4. Save content as a markdown file with proper format using the save_blog_post function
-    5. Ensure the output directory exists and is accessible
+    1. Review and incorporate the technical reviewer's feedback to ensure the article meets Medium's high-quality standards
+    2. Ensure the article includes:
+       - Professional diagrams and visuals
+       - Properly formatted code blocks with syntax highlighting
+       - Clear section breaks and subheadings
+       - Pull quotes for important insights
+       - Properly formatted lists and tables
+       - Consistent formatting and styling
+    3. Add comprehensive Medium-optimized metadata:
+       - Title: "{topic}: A Comprehensive Technical Guide"
+       - Subtitle: "Learn how to implement and deploy {topic} in production environments"
+       - Author: "AI Blog Writer"
+       - Publication date: Current date
+       - Tags: ["{topic}", "Technology", "Programming", "Software Development", "Tutorial"]
+       - Reading time: Based on content length
+       - Featured image: Suggest appropriate technical diagram or illustration
+    4. Format the content for Medium with:
+       - Proper markdown formatting
+       - Gist embeds for code blocks
+       - Mermaid diagrams for architecture and flows
+       - Image placeholders for diagrams and screenshots
+       - Pull quote formatting for key insights
+       - Clear section breaks with horizontal rules
+       - Consistent heading hierarchy
+    5. Optimize for Medium engagement:
+       - Add relevant tags for discoverability
+       - Include clear calls-to-action
+       - Format for easy scanning
+       - Use proper image captions
+       - Include relevant links
+       - Add author bio and credentials
+    6. Save content as a markdown file with proper format using the save_blog_post function
+    7. Ensure all assets (images, diagrams) are properly referenced
   expected_output: >
-    A technical blog post about {topic} in more detail and easy to understand
-    Formatted as markdown without '```'
+    A professionally formatted Medium article about "{topic}" that includes:
+    - Complete technical content with visuals
+    - Professional diagrams and code examples
+    - Proper Medium-style formatting
+    - Optimized metadata and tags
+    - All necessary assets and references
+    Formatted as markdown with proper frontmatter
   metadata:
     type: publish
     format: markdown
     markdown: true
-    output_file: '{timestamp}_{topic}_blog_post.md'
+    output_file: '{topic}_{timestamp}.md'
     output_dir: './output'
     frontmatter:
-      title: '{topic} - Technical Deep Dive'
+      title: '{topic}: A Comprehensive Technical Guide'
+      subtitle: 'Learn how to implement and deploy {topic} in production environments'
       author: 'AI Blog Writer'
       date: '{current_date}'
       timestamp: '{timestamp}'
-      slug: '{topic}-technical-deep-dive'
-      tags: ['{topic}', 'technology', 'tutorial']
-      categories: ['Technical']
+      slug: '{topic}-comprehensive-technical-guide'
+      tags:
+        [
+          '{topic}',
+          'Technology',
+          'Programming',
+          'Software Development',
+          'Tutorial',
+        ]
+      categories: ['Programming', 'Technology', 'Tutorials']
       reading_time: '{estimated_time}'
+      featured_image: '{topic}_architecture.png'
       status: 'published'
-      featured: false
+      featured: true
+      publication: 'Towards AI'
+      series: 'Technical Guides'
+      canonical_url: ''
